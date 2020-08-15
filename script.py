@@ -48,7 +48,7 @@ if __name__ == '__main__':
 	server.ehlo()
 	server.starttls()
 	server.ehlo()
-	password = 'pjsrgyneesbjdcxh'
+	password = secretapppassword
 	server.login(me,password)
 	server.sendmail(me,you,msg.as_string())
 	server.close()
