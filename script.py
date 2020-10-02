@@ -37,8 +37,8 @@ if __name__ == '__main__':
 	with open(textfile, 'r') as fp:
 		msg = MIMEText(fp.read())
 
-	me = 'ifrah.94@gmail.com'
-	you = 'ifrah.94@gmail.com'
+	me = 'sender email'
+	you = 'receiver email'
 
 	msg['Subject'] = 'Your content for the day'
 	msg['From'] = me
