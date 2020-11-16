@@ -33,7 +33,7 @@ if __name__ == '__main__':
 
 	from email.mime.text import MIMEText
 
-	textfile = '/Users/ifrahkhanyaree/output.txt'
+	textfile = '.../output.txt'
 	with open(textfile, 'r') as fp:
 		msg = MIMEText(fp.read())
 
